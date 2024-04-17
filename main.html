@@ -14,7 +14,8 @@
 				return -Infinity;
 			}
 			arr.sort((a,b)=>a-b);
-			return arr[arr.length-2];		
+			
+			return arr[arr.length-2]<arr[arr.length-1] ? arr[arr.length-2]:-Infinity;				
 		}
 
 		function Main() {
