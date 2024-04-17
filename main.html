@@ -13,7 +13,7 @@
 			if (arr.length<2) {
 				return -Infinity;
 			}
-			arr.sort();
+			arr.sort((a,b)=>a-b);
 			return arr[arr.length-2];		
 		}
 
